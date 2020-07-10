@@ -24,10 +24,10 @@ int main()
     {
         printf("%d ", arr[temp]);
     }
-    printf("\n\n");
+    printf("\n\nSorted list: \n\n");
     qSort(arr, 0, n);
-    printf("Sorted list: \n");
-    printf("\n");
+
+    printf("\n\n");
     return 0;
 }
 
